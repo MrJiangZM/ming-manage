@@ -3,5 +3,12 @@ server:
   servlet:
     context-path: /mingblog
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mingmanage?characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: mingmou
+    password: mingMou#?@2019
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
 #设置静态资源路径，多个以逗号分隔
 spring.resources.static-locations: classpath:static/,file:static/
