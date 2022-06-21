@@ -17,7 +17,7 @@
     <properties>
         <zxing.version>3.4.0</zxing.version>
         <guava.version>28.1-jre</guava.version>
-        <mysql.version>8.0.18</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
         <lombok.version>1.18.10</lombok.version>
         <fastjson.version>1.2.60</fastjson.version>
